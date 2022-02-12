@@ -1,0 +1,54 @@
+.registerarea{
+    height: 522px;
+    border: 1px solid;
+    margin-top: 50px;;
+}
+.registerarea h3{
+       background-color: slategrey;
+       padding:0 15px;
+       height: 40px;
+       line-height: 40px;
+}
+.registerarea h3 div{
+    float: right;
+}
+.registerarea h3 a{
+    color: tomato;
+    margin-right: 50px;
+}
+
+.reg_form {
+    width: 600px;
+
+    margin: 50px auto ;
+}
+.reg_form li{
+text-align: center;
+margin: 20px 0px;
+}
+.reg_form li label{
+    width: 88px;
+    display:inline-block ;
+    text-align: right;
+}
+.reg_form ul li input{
+    width: 242px;height: 37px;border: 1px solid;
+    margin: 0 10px;
+
+}
+.safe em{
+    padding: 0 12px;
+    margin: 0 5px;
+    background-color: tomato;
+}
+.reg_form .agree input{
+    width: 20px;
+    height: 20px;
+}
+.error_icon{
+    display: inline-block;
+    vertical-align:middle;
+    background: pink;
+    width: 20px;
+    height: 20px;
+}

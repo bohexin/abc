@@ -1,0 +1,35 @@
+.sk_list{
+    float: left;
+    margin:10px 0;
+}
+.sk_con{
+    float: left;
+    margin: 10px 0 10px 80px ;
+}
+.sk_list ul li{
+    float: left;
+   height: 30px;
+   line-height: 30px;
+    padding:0 20px;
+    text-align: center;
+    font-size: 18px;
+}
+.sk_con ul li{
+    float: left;
+    height: 30px;
+    line-height: 30px;
+     padding:0 20px;
+     text-align: center;
+     font-size: 16px;
+}
+.sk_con ul li:nth-child(8):after{
+    float: right;
+    content: "\e606";
+    font-family: 'iconfont';
+}
+
+
+.sk_hd img{
+    height: 200px;
+    width: 100%;
+}
